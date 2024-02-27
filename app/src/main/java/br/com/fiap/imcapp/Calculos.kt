@@ -4,7 +4,7 @@ import androidx.compose.ui.graphics.Color
 import kotlin.math.pow
 
 fun calcularImc (pesoUsuario: Double, alturaUsuario: Double): Double {
-    var imc =   pesoUsuario / (alturaUsuario/100).pow(2)
+    val imc =   pesoUsuario / (alturaUsuario/100).pow(2)
     return imc
 }
 
